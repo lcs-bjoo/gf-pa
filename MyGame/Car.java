@@ -14,6 +14,11 @@ public class Car extends Actor
      */
     public void act() 
     {
-        
+         if (Greenfoot.isKeyDown("left")){
+            move(-7);
+        }
+        if (Greenfoot.isKeyDown("right")){
+            move(7);
+        }
     }    
 }
